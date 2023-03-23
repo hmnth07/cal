@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Calender from "./components/Calender";
+import Calendar from "./components/Calendar/Calendar";
 
 function App() {
 	return (
 		<div className="App">
-			<p>Start building calender</p>
-			<Calender />
+			<Calendar date={"2023-04-19"} />
 		</div>
 	);
 }
